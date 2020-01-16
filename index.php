@@ -1,7 +1,6 @@
 <?php
 $stdin = fopen('php://stdin', 'r');
 $n = -1;
-$num = 0;
 $array = [];
 
 while ($n < 0 || !is_int($n)) {
